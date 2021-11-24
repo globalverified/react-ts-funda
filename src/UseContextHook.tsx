@@ -33,7 +33,7 @@ export function UseContextHook() {
             {/* provider accept karta hai value and wo sabi childs me automatically mil jayega */}
             {/* eslint-disable-next-line */}
             <_userContext.Provider value={userDetails}>
-                <button onClick={() => { updateName('Kartik',31) }}>Update name</button>
+                <button onClick={() => { updateName('Kartik', 31) }}>Update name</button>
                 <DisplayName />
                 <DisplayRollNo />
             </_userContext.Provider>

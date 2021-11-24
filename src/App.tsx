@@ -44,7 +44,7 @@ function App() {
         <p>Sum of 2 numbers with Components: <SumComponent a={2} b={3} /></p>
         <br />------------<br />
         <Welcome name='Suraj' id='isuraj' />
-         <br />------------<br />
+        <br />------------<br />
         <ToggleButton />
         <br />------------<br />
         <UserForm />
