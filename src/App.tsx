@@ -13,6 +13,8 @@ import { CustomHooks } from './CustomHooks';
 import { UseRefExample } from './UseRefExample';
 import { UseReducerHook } from './UseReducerHook';
 import { UseContextHook } from './UseContextHook';
+import { UserContextProvider } from './context/UserContextProvider';
+import { UseContextReducer } from './Components/UseContextReducer';
 
 
 function sum(a: number, b: number) {
@@ -67,6 +69,9 @@ function App() {
         <br />-----------<br />
         <UseContextHook />
         <br />-----------<br />
+        <UserContextProvider >
+          <UseContextReducer />
+        </UserContextProvider>
       </header>
     </div>
   );
